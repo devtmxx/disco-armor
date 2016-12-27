@@ -1,0 +1,23 @@
+group 'net.tmxx.plugins'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        name "spigot"
+        url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
+    }
+    maven {
+        name "sonatype"
+        url "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    compile group: 'org.spigotmc', name: 'spigot-api', version: '1.11-R0.1-SNAPSHOT'
+}

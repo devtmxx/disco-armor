@@ -1,0 +1,11 @@
+name: DiscoArmor
+version: 1.0.0
+main: net.tmxx.discoarmor.DiscoArmor
+author: tmxx
+description: Allows players to have the best party ever
+
+commands:
+  discoarmor:
+    usage: /<command>
+    description: Enable disco armor for a player
+    aliases: [da]
